@@ -1,7 +1,7 @@
-project: jbgreenh/jpeg2png
+project: jbgreenh/j2p
 target: jpeg2png
-
-image: ghcr.io/jbgreenh/jpeg2png:latest
 
 cmds:
   - cmd: /jpeg2png @@
+    max_length: 255
+    duration: 90
